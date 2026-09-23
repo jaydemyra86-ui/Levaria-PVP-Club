@@ -1,0 +1,15 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Levaria PvP Club UI",
+    "description": "Resource pack for Levaria PvP Club.",
+    "uuid": "2db50c59-7cbd-4a09-9db5-0ec2c10cb123",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 50]
+  },
+  "modules": [{
+    "type": "resources",
+    "uuid": "4f9bd13b-8a54-4dc9-9984-e373b7d4a1c7",
+    "version": [1, 0, 0]
+  }]
+}

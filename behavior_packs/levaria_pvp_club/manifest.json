@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Levaria PvP Club",
+    "description": "Duels, ranked PvP, kits, arenas, stats, teams and leaderboards for Bedrock 1.26.50+.",
+    "uuid": "8c1a8ca2-2bd3-4b07-a2ec-0d75a4f0d1a8",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 50]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7d7d8fb4-c9a1-4c4e-9a6b-9d8d13d9dc9b",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b1ce4d02-5e89-4cb7-8cc3-0a1db74c4f42",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "2.4.0" },
+    { "module_name": "@minecraft/server-ui", "version": "2.1.0" }
+  ]
+}
